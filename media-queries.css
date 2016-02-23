@@ -1,4 +1,4 @@
-@media screen and (max-width:800px) {
+@media screen and (max-width:730px) {
 	/* Banner */
 	main {
 		height: 100%;
@@ -8,7 +8,7 @@
 
 	#banner {
 		/*height: 30vh; no longer working thanks to the Chrome bar hiding on mobile (website recalcs.) */
-		min-height: calc(8rem + 35vw); /* fuck knows what this means but works (both increase hight, but increas. right gives higher max-min difference)*/
+		min-height: calc(1rem + 50vw); /* fuck knows what this means but works (both increase hight, but increas. right gives higher max-min difference)*/
 		width: 100%;
 		position: relative;
 	}
@@ -78,7 +78,7 @@
 	}
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 731px) {
 	#inner {
 		top: 50%;
 	    transform: translateY(-50%);
