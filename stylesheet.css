@@ -20,6 +20,9 @@ html,body {
 	overflow-x: hidden;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
+a {
+   text-decoration: none;
+}
 
 
 
@@ -381,4 +384,40 @@ a:hover {
 .pic:hover .bottom-to-top {
     top: 0;
     left: 0
+}
+
+.container {
+    padding-top: 5vh;
+    width: 90%;
+    max-width: 1300px;
+    color: #fff;
+    margin: 0 auto;
+    position: relative;
+}
+
+.item {
+    margin: 0px 3%;
+    width: 27%;
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 7vh;
+}
+
+.item p {
+    font-size: 1.3em;
+    margin-top: 5px;
+    line-height: 1.6em; 
+    color: #4A4A4A;
+}
+
+.item h2 {
+    font-weight: 400;
+    color: #4A4A4A;
+    font-size: 2em;
+}
+
+.cbutton {
+    margin-top: 10px;
+    max-width: 100%;
+    text-align: center;
 }
