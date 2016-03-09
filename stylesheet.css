@@ -414,6 +414,7 @@ a:hover {
 }
 
 .item {
+    vertical-align: text-top;
     margin: 0px 3%;
     width: 27%;
     display: inline-block;
