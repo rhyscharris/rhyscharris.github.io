@@ -18,6 +18,9 @@
 	.double {
 		width: 50.26% !important;
 	}
+	#banner:before {
+		width: 400%;
+	}
 
 }
 @media screen and (max-width: 400px) {
@@ -31,6 +34,9 @@
 	.item {
 		margin: 0px 3%;
     	width: 43%;
+	}
+		#banner:before {
+		width: 500%;
 	}
 }
 
@@ -123,9 +129,16 @@
 }
 
 @media screen and (max-width:550px) {
-	.button {
-		width: 100%;
-	}
+	#banner:before {
+ content: normal;
+	background: url(../images/banner.jpg) repeat;
+	width: auto;
+	height: auto;
+    top: auto;
+  left: auto;
+	position: absolute;
+-webkit-transform: rotate(0deg);
+}
 }
 
 @media screen and (min-width: 731px) {
