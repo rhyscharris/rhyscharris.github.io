@@ -126,6 +126,10 @@
 	#home-content {
 		width: 85%;
 	}
+	.button {
+		text-align: center;
+    	width: 100%;
+	}
 }
 
 @media screen and (max-width:550px) {
