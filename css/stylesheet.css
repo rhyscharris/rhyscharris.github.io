@@ -374,14 +374,14 @@ table {
 }
 
 .pic img {
-    max-width: 100%;
+    width: 100%;
         display: block;
 }
 
 
 .pic {
     margin-right: -5px;
-    width: 16.777%;
+    width: 16.7%;
     position: relative;
     overflow: hidden;
     /*margin: 10px;*/
@@ -396,6 +396,7 @@ table {
 
 .double {
     width: 33.4% !important; /* Cheeky ProVidenceHD */
+    margin-right: -7px;
 }
 
 .pic-caption {
