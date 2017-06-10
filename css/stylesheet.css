@@ -556,6 +556,20 @@ table {
   }
 }
 
+@media screen and (min-width:2500px) {
+  .pic {
+    width: 11.1111%
+  }
+
+  .double {
+    width: 22.2222%!important
+  }
+
+  #providence {
+    display: inline;
+  }
+}
+
 @media screen and (max-width:550px) {
   #banner:before {
     content: normal;
